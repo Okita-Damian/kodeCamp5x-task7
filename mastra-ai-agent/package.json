@@ -1,0 +1,41 @@
+{
+  "name": "mastra-ai-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "^2.0.35",
+    "@mastra/core": "^1.13.2",
+    "@mastra/libsql": "^1.7.0",
+    "@mastra/mcp": "^1.2.1",
+    "@mastra/memory": "^1.8.2",
+    "@mastra/server": "^1.13.2",
+    "dotenv": "^17.3.1",
+    "next": "16.1.6",
+    "openai": "^6.29.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
