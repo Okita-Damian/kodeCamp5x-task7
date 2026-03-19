@@ -33,7 +33,7 @@ src/
 │       ├── searchTool.ts
 │       └── weatherTool.ts
 │
-│   └── cli.ts
+│ └── cli.ts
 │
 ├── server/
 │   └── server.ts

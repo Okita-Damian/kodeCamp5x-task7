@@ -21,6 +21,7 @@
     "@mastra/memory": "^1.8.2",
     "@mastra/server": "^1.13.2",
     "dotenv": "^17.3.1",
+    "evaluate": "^1.0.2",
     "next": "16.1.6",
     "openai": "^6.29.0",
     "react": "19.2.3",
